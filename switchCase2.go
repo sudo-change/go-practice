@@ -7,7 +7,6 @@ func time() int {
 }
 
 func main() {
-
 	switch work := time(); { // if the variable declared here, it will be local to this only
 	case work < 6:
 		fmt.Println("more focus")
