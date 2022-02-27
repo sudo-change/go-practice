@@ -16,10 +16,11 @@ func main() {
 		age:   21,
 		email: "kalios@example.com",
 	}
+	
 	kalios.WStart("Mastery")
-
 }
 
+// method for type Person
 func (P Person) WStart(text string) {
 	fmt.Printf("to feel %v in one thing in the next 2 years i.e within %v \n", text, (P.age)+2)
 }
