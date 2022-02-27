@@ -24,5 +24,4 @@ func main() {
 		},
 	}
 	fmt.Println(kalios.contactinfo.email)
-
 }
