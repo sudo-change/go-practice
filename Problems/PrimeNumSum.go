@@ -5,6 +5,10 @@ import (
 	"math"
 )
 
+// start from 2 to n
+// check each number if its  prime
+// if it is add it to a variable
+
 func isPrime(n int) bool {
 	if n < 2 {
 		return false
