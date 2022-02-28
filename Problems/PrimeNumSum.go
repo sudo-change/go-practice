@@ -18,7 +18,6 @@ func isPrime(n int) bool {
 			is = false
 			break
 		}
-
 	}
 	return is
 }
